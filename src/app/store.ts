@@ -1,9 +1,10 @@
-import { configureStore, ThunkAction, Action } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
+/* eslint-disable import/no-cycle */
+import { configureStore, ThunkAction, Action } from "@reduxjs/toolkit";
+import cardsReducer from "@redux/cardsSlice";
 
 export const store = configureStore({
   reducer: {
-    counter: counterReducer,
+    cards: cardsReducer,
   },
 });
 

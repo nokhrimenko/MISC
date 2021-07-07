@@ -1,0 +1,14 @@
+@import '../../styles/variables.scss';
+
+.searchPage {
+  padding:15px 55px 45px 60px;
+  margin: 0 auto;
+  max-width: 1550px;
+  width: 100%;
+  background-color: $darkTeal;
+
+  @media (max-width: $max-mobile-width) {
+    max-width: none;
+    min-width: 260px;
+  }
+}

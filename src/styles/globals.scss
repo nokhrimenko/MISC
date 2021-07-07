@@ -1,0 +1,11 @@
+@import "./variables.scss";
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap");
+
+html,
+body {
+  background: $darkTeal;
+  font-family: "Roboto", sans-serif !important;
+  margin: 0;
+  padding: 0;
+}
