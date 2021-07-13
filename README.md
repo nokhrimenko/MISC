@@ -1,7 +1,7 @@
 
 To begin work with projects
 
-### `yarn i`
+### `yarn `
 ## Available Scripts
 
 In the project directory, you can run:
